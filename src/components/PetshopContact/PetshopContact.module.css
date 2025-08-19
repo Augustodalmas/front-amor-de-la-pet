@@ -1,0 +1,187 @@
+.contact {
+  padding: 80px 0;
+  background: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.infoCard {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.infoIcon {
+  font-size: 2rem;
+  color: #4CAF50;
+  margin-top: 0.5rem;
+  flex-shrink: 0;
+}
+
+.infoCard h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.infoCard p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.socialLinks {
+  margin-top: 1rem;
+}
+
+.socialLinks h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .socialLinks h3 {
+    text-align: center;
+  }
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialIcon {
+  width: 50px;
+  height: 50px;
+  background: #4CAF50;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.socialIcon:hover {
+  background: #45a049;
+  transform: translateY(-2px);
+}
+
+.ctaSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ctaCard {
+  background: linear-gradient(135deg, #4CAF50, #45a049);
+  padding: 3rem;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.ctaCard h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.ctaCard p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.whatsappButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: white;
+  color: #4CAF50;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.whatsappButton:hover {
+  background: #f8f9fa;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .contactGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .infoCard {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .socialIcons {
+    justify-content: center;
+  }
+
+  .ctaCard {
+    padding: 2rem;
+    margin: 0 1rem;
+  }
+
+  .ctaCard h3 {
+    font-size: 1.5rem;
+  }
+
+  .header h2 {
+    font-size: 2rem;
+  }
+}
