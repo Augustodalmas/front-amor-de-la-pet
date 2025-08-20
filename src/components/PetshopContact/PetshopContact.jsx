@@ -40,9 +40,9 @@ const PetshopContact = () => {
               <FaMapMarkerAlt className={styles.infoIcon} />
               <div>
                 <h3>Localização</h3>
-                <p>Rua Julio Callegari Nº 1171<br />
-                  Bairro Esplanada - Edifício Lá Mamma Mia - Sala 4<br />
-                  Caxias do Sul - RS</p>
+                <p>Rua Julio Callegari Nº 1650<br />
+                  Bairro Esplanada - Caxias do Sul<br />
+                  CEP 95095-230</p>
               </div>
             </div>
 
@@ -71,7 +71,7 @@ const PetshopContact = () => {
                   <FaWhatsapp />
                 </motion.a>
                 <motion.a
-                  href="#"
+                  href="https://www.instagram.com/amordelapet"
                   className={styles.socialIcon}
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
@@ -79,7 +79,7 @@ const PetshopContact = () => {
                   <FaInstagram />
                 </motion.a>
                 <motion.a
-                  href="#"
+                  href="https://www.facebook.com/people/Amordelapet/100085839219216/?mibextid=ZbWKwL"
                   className={styles.socialIcon}
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}

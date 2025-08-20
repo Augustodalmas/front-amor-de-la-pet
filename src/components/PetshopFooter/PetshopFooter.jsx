@@ -38,9 +38,9 @@ const PetshopFooter = () => {
             <div className={styles.addressInfo}>
               <FaMapMarkerAlt className={styles.addressIcon} />
               <div>
-                <p>Rua Julio Callegari Nº 1171</p>
-                <p>Bairro Esplanada - Edifício Lá Mamma Mia - Sala 4</p>
-                <p>Caxias do Sul - RS</p>
+                <p>Rua Julio Callegari Nº 1650<br />
+                  Bairro Esplanada - Caxias do Sul<br />
+                  CEP 95095-230</p>
               </div>
             </div>
           </motion.div>
@@ -65,7 +65,7 @@ const PetshopFooter = () => {
                 <FaWhatsapp />
               </motion.a>
               <motion.a
-                href="#"
+                href="https://www.instagram.com/amordelapet"
                 className={styles.socialLink}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
@@ -73,7 +73,7 @@ const PetshopFooter = () => {
                 <FaInstagram />
               </motion.a>
               <motion.a
-                href="#"
+                href="https://www.facebook.com/people/Amordelapet/100085839219216/?mibextid=ZbWKwL"
                 className={styles.socialLink}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
@@ -92,7 +92,7 @@ const PetshopFooter = () => {
           viewport={{ once: true }}
         >
           <p>
-            © 2024 Amor De La Pet. Feito com <FaHeart className={styles.heartIcon} /> para pets e seus tutores.
+            © 2025 Amor De La Pet. Feito com <FaHeart className={styles.heartIcon} /> para pets e seus tutores.
           </p>
         </motion.div>
       </div>
